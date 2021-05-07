@@ -7,12 +7,12 @@ using the csv files in the csv_data folder, run the COPY statements (have to cha
 
 # To build the app
 Go to the main folder
-# install express, pg, and cors
+## install express, pg, and cors
 npm install 
-# run the server
+## run the server
 npm install -g nodemon
 nodemon backend.js
 
-# go to the client folder
+## go to the client folder
 npm install
 npm start
