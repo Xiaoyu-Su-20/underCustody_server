@@ -5,9 +5,7 @@ run the SQL CREATE TABLE statements in ddl.sql
 # To load the csv files 
 using the csv files in the csv_data folder, run the COPY statements (have to change directory of the csv files)
 
-# To build the app 
-
-# backend
+# To build the app
 Go to the main folder
 # install express, pg, and cors
 npm install 
@@ -15,7 +13,6 @@ npm install
 npm install -g nodemon
 nodemon backend.js
 
-# front end 
 # go to the client folder
 npm install
 npm start
