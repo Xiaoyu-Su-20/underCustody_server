@@ -13,6 +13,7 @@ using the csv files in the csv_data folder, run the COPY statements in ddl.sql (
 ### (3) run the server
 `npm install -g nodemon`
 
+
 `nodemon backend.js`
 
 ### (4) go to the client folder
