@@ -1,5 +1,9 @@
 Thanks to this Postgres, Express, React, and Node tutorial https://www.youtube.com/watch?v=ldYcgPKEZC8
 
+To download and setup PostgreSQL, see https://www.youtube.com/watch?v=fZQI7nBu32M&t=0s.
+
+To connect to PostgreSQL, you can use pgadmin (https://www.pgadmin.org/) or IDE for databases or postgres APIs. 
+
 # Get the database ready
 ### To create schemas in postgres database
 run the SQL CREATE TABLE statements in ddl.sql
