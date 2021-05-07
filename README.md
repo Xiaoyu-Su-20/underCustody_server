@@ -7,7 +7,7 @@ run the SQL CREATE TABLE statements in ddl.sql
 using the csv files in the csv_data folder, run the COPY statements in ddl.sql (have to change directory of the csv files)
 
 # To build the app
-### (1) Go to the main folder
+### (1) go to the main folder
 ### (2) install express, pg, and cors
 npm install 
 ### (3) run the server
