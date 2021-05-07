@@ -1,0 +1,182 @@
+/* define variables  */
+/* define variables  */
+:root {
+  --grey: #635F5D;
+  --font: "Times New Roman", Times, serif;
+  --left_margin: 280px;
+}
+
+svg {
+  position: relative;
+  left: 50%;
+  -webkit-transform: translateX(-55%);
+  -ms-transform: translateX(-55%);
+  transform: translateX(-55%);
+}
+/* bars */
+rect {
+ fill:#328aa2;
+ stroke-width:1.5;
+ stroke:#328aa2;
+}
+
+hr {
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+}
+
+/* axes */
+.axis {
+	stroke-width: 2px;
+}
+
+.axis line {
+  stroke: var(--grey);
+}
+.axis path{
+  stroke: var(--grey);
+}
+.axis text{
+  fill: black;
+  font-family: var(--font);
+}
+
+.axis-label {
+  font-size:1em;
+  font-family: var(--font);
+  dy: 1.2em;
+  text-anchor: middle;
+  fill: black;
+}
+
+
+
+/* dropdown menu */
+
+.menu-container {
+  margin-top: 20px;
+  margin-right: 20px;
+  display: flex;
+  justify-content: center;
+}
+.dropdown-label{
+  padding-left: 100px;
+  margin-right: 20px;
+  font-size: 1.5em;
+  margin-top:10px;
+  fill: var(--grey);
+  color: var(--grey);
+  font-family: var(--font);
+}
+.Dropdown-control:hover {background-color: #ddd;}
+
+.Dropdown-root {
+  font-size: 1.5em;
+  width: 300px;
+  display: inline-block;
+  border-radius: 0.35em;
+}
+.Dropdown-menu {
+  display: block;
+  max-height: 300px;
+  border-radius: 0.35em;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.Dropdown-arrow {
+  margin-top: 6px;
+}
+div#map_menu .Dropdown-root{
+  width: 800px;
+}
+
+/* title */
+p {
+  padding-left: 80px;
+}
+/* caption */
+#summary-t-caption {
+    text-align: right;
+}
+
+
+h1 {
+  color: #fffff;
+  font-family: Segoe UI, sans-serif;
+  font-size: 46px;
+  font-weight: 100;
+  line-height: 50px;
+  letter-spacing: 1px;
+  padding: 0 0 40px;
+  text-align: center;
+  text-shadow: 1px 1px #328aa2;
+}
+
+
+
+
+
+div#ny_state_map svg {
+  display: flex;
+  justify-content: center;
+  transform: translateX(-40%);
+}
+
+/* radio button */
+.control {
+    font-family: Times New Roman;
+    display: block;
+    position: relative;
+    padding-left: 120px;
+ 	 	margin-left: calc(var(--left_margin) - 85px);
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding-top: 7px;
+    cursor: pointer;
+    font-size: 16px;
+  	fill: var(--grey);
+  	color: var(--grey);
+    transform: translateX(-30%);
+}
+/* radio button */
+.control-group {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.control input {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}
+.control_indicator {
+    position: absolute;
+    top: 2px;
+    left: 80px;
+    height: 25px;
+    width: 25px;
+    background: #e6e6e6;
+    border: 1px solid #000000;
+    border-radius: undefinedpx;
+}
+.control:hover input ~ .control_indicator,
+.control input:focus ~ .control_indicator {
+    background: #cccccc;
+}
+
+.control input:checked ~ .control_indicator {
+    background: #2aa1c0;
+}
+.control:hover input:not([disabled]):checked ~ .control_indicator,
+.control input:checked:focus ~ .control_indicator {
+    background: #0e6647d;
+}
+.control_indicator:after {
+    box-sizing: unset;
+    content: '';
+    position: absolute;
+    display: none;
+}
+.control-radio .control_indicator {
+    border-radius: 50%;
+}

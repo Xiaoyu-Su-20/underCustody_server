@@ -1,0 +1,47 @@
+/* define variables  */
+:root {
+  --grey: #635F5D;
+  --font: "Times New Roman", Times, serif;
+  --left_margin: 2500px;
+}
+
+
+/* axes */
+
+.axes {
+	stroke-width: 2px;
+}
+
+.axes line {
+  stroke: var(--grey);
+}
+.axes path{
+  stroke: var(--grey);
+}
+.axes text{
+  fill: black;
+  font-family: var(--font);
+}
+
+.axes-label {
+  font-size:1.2em;
+  font-family: var(--font);
+  dy: 1.2em;
+  text-anchor: middle;
+  fill: black;
+  font-weight: bold;
+}
+
+
+/* tooltip */
+.d3-tooltip {
+  position: absolute;
+  padding: 14px;
+  z-index: 10;
+  font-family: var(--font);
+  background: rgba(0,0,0,0.6);
+  border-radius: 4px;
+  text: 'a simple tooltip';
+  color: #fff;
+  line-height: 1.6;
+}

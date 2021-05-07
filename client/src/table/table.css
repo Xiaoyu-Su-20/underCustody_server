@@ -1,0 +1,34 @@
+table {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+table, th, td {
+ border-collapse: collapse;
+ width: 300px;
+ border-bottom: 1px solid #ddd;
+ padding: 10px;
+ font-family: var(--font);
+}
+tr:nth-child(even) {background-color: #f2f2f2;}
+td:nth-child(3) {
+  text-align: right;
+  text-justify: right;
+}
+thead{
+ font-weight: 800;
+ background-color: #328aa2;
+ color: white;
+}
+tr:hover {
+  background-color: #b0c8cf;
+}
+caption {
+  display: table-caption;
+  text-align: center;
+  caption-side: bottom;
+  padding: 10px;
+	font-weight: 600;
+}

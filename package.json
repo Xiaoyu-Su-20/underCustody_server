@@ -1,0 +1,17 @@
+{
+  "name": "uc_server",
+  "version": "1.0.0",
+  "description": "npm install express pg cors \r type nul > index.js",
+  "main": "backend.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "pg": "^8.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
