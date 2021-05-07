@@ -4,7 +4,7 @@ Thanks to this Postgres, Express, React, and Node tutorial https://www.youtube.c
 ### To create schemas in postgres database
 run the SQL CREATE TABLE statements in ddl.sql
 ### To load the csv files 
-using the csv files in the csv_data folder, run the COPY statements (have to change directory of the csv files)
+using the csv files in the csv_data folder, run the COPY statements in ddl.sql (have to change directory of the csv files)
 
 # To build the app
 Go to the main folder
